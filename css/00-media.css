@@ -99,29 +99,38 @@
     .main .col-7 {
       width: 90%; }
 
+  .funds h2 {
+    margin-top: 500px; }
   .funds .container .col-6 {
     width: 100%; } }
+@media screen and (max-width: 600px) {
+  .logo {
+    text-align: right; } }
 @media screen and (max-width: 560px) {
   .header-wrapp {
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
     .header-wrapp .col-5.authorisation {
       width: 100%; }
       .header-wrapp .col-5.authorisation .reristration {
         justify-content: flex-end; }
     .header-wrapp .col-5, .header-wrapp .col-2 {
-      width: 100%; }
+      width: 50%; }
 
   .get {
     line-height: 35px; }
 
   .reristration a {
-    line-height: 35px; } }
+    line-height: 35px; }
+
+  .funds h2 {
+    margin-top: 570px; } }
 @media screen and (max-width: 520px) {
   .funds h2 {
-    margin-top: 850px; } }
+    margin-top: 650px; } }
 @media screen and (max-width: 430px) {
   .funds h2 {
-    margin-top: 950px; } }
+    margin-top: 700px; } }
 @media screen and (max-width: 370px) {
   .features p {
     margin-top: 15px;

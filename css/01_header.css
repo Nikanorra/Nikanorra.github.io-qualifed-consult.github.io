@@ -28,7 +28,10 @@
   .menu nav ul a {
     color: #fff;
     font-size: 14px;
-    margin-right: 62px; }
+    margin-right: 62px;
+    transition: .5s; }
+    .menu nav ul a:hover {
+      color: rgba(255, 255, 255, 0.5); }
 
 .reristration {
   display: flex;
@@ -38,6 +41,8 @@
     font-size: 14px;
     line-height: 52px;
     padding: 0 40px; }
+    .reristration a:hover {
+      color: rgba(255, 255, 255, 0.5); }
 
 .get {
   color: #fff;
@@ -48,6 +53,8 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.2); }
+  .get:hover {
+    background: rgba(255, 255, 255, 0.5); }
   .get a {
     display: block; }
 
@@ -69,8 +76,12 @@
   background: #fff;
   padding: 13px 0;
   max-width: 270px;
-  letter-spacing: .2rem; }
+  letter-spacing: .2rem;
+  transition: .5s; }
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.5); }
   .btn a {
+    display: block;
     font-size: 18px;
     color: black;
     text-transform: uppercase; }
