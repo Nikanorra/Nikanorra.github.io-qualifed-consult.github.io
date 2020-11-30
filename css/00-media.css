@@ -33,8 +33,22 @@
   .reristration a {
     padding: 0 40px; } }
 @media screen and (max-width: 800px) {
-  .menu ul li {
+  .menu__nav {
     display: none; }
+    .menu__nav ul {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      background: #fff;
+      width: 50%;
+      height: 100vh;
+      left: 0;
+      padding: 2%; }
+      .menu__nav ul li {
+        border-bottom: 1px solid rgba(77, 5, 232, 0.9); }
+        .menu__nav ul li a {
+          color: #050215;
+          font-size: 20px; }
 
   header .col-2 {
     order: 2; }
@@ -69,7 +83,13 @@
     flex-direction: column; }
     .funds .container .col-6 {
       width: 100%;
-      text-align: center; } }
+      text-align: center; }
+
+  .menu label {
+    display: block; }
+
+  #btn-menu:checked ~ .menu__nav {
+    display: flex; } }
 @media screen and (max-width: 750px) {
   .main {
     margin-top: 100px; }

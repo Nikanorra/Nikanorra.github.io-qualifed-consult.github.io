@@ -6,13 +6,21 @@
   padding-top: 35px; }
 
 .header-wrapp {
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .logo {
   color: #fff;
   font-size: 22px;
   font-weight: bold;
   line-height: 52px; }
+
+.menu input {
+  display: none; }
+.menu label {
+  color: #fff;
+  font-size: 30px;
+  display: none; }
 
 .menu nav ul {
   display: flex;
