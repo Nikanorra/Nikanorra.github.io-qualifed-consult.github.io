@@ -131,12 +131,18 @@
 @media screen and (max-width: 430px) {
   .funds h2 {
     margin-top: 700px; } }
+@media screen and (max-width: 430px) {
+  .funds h2 {
+    margin-top: 900px; } }
 @media screen and (max-width: 370px) {
   .features p {
     margin-top: 15px;
     margin-bottom: 5px;
     font-size: 12px;
     letter-spacing: 1px;
-    line-height: 1rem; } }
+    line-height: 1rem; }
+
+  .funds h2 {
+    margin-top: 700px; } }
 
 /*# sourceMappingURL=00-media.css.map */
