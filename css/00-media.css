@@ -1,0 +1,145 @@
+@media screen and (max-width: 1130px) {
+  .menu nav ul a {
+    font-size: 12px;
+    margin-right: 30px; }
+
+  .main h2 {
+    font-size: 40px;
+    line-height: 70px; } }
+@media screen and (max-width: 1010px) {
+  .features__strategy {
+    margin: 0 50px; }
+
+  .features p {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+
+  .features__wrapp {
+    padding: 5% 2%; }
+
+  .funds h2 {
+    font-size: 40px;
+    margin-top: 300px; }
+  .funds p {
+    margin-top: 300px; }
+  .funds .container .col-6.title {
+    padding: 0 40px;
+    text-align: center; } }
+@media screen and (max-width: 940px) {
+  .get {
+    font-size: 16px;
+    padding: 0 5px; }
+
+  .reristration a {
+    padding: 0 40px; } }
+@media screen and (max-width: 800px) {
+  .menu__nav {
+    display: none; }
+    .menu__nav ul {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      background: #fff;
+      width: 50%;
+      height: 100vh;
+      left: 0;
+      padding: 2%; }
+      .menu__nav ul li {
+        border-bottom: 1px solid rgba(77, 5, 232, 0.9); }
+        .menu__nav ul li a {
+          color: #050215;
+          font-size: 20px; }
+
+  header .col-2 {
+    order: 2; }
+  header .col-5 {
+    order: 1; }
+  header .col-5.authorisation {
+    order: 3; }
+
+  .reristration a {
+    padding: 0 20px; }
+
+  .features__wrapp {
+    padding: 3% 5% 6% 5%; }
+    .features__wrapp .col-10 {
+      flex-direction: column; }
+
+  .features__strategy {
+    margin: 0; }
+
+  .features p {
+    margin-bottom: 10px; }
+  .features h3 {
+    margin-top: 60px; }
+
+  .funds h2 {
+    font-size: 40px;
+    margin-top: 750px;
+    margin-bottom: 20px; }
+  .funds p {
+    margin-top: 0; }
+  .funds .container {
+    flex-direction: column; }
+    .funds .container .col-6 {
+      width: 100%;
+      text-align: center; }
+
+  .menu label {
+    display: block; }
+
+  #btn-menu:checked ~ .menu__nav {
+    display: flex; } }
+@media screen and (max-width: 750px) {
+  .main {
+    margin-top: 100px; }
+    .main h2 {
+      font-size: 30px;
+      line-height: 40px; }
+    .main .col-7 {
+      width: 90%; }
+
+  .funds h2 {
+    margin-top: 500px; }
+  .funds .container .col-6 {
+    width: 100%; } }
+@media screen and (max-width: 600px) {
+  .logo {
+    text-align: right; } }
+@media screen and (max-width: 560px) {
+  .header-wrapp {
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .header-wrapp .col-5.authorisation {
+      width: 100%; }
+      .header-wrapp .col-5.authorisation .reristration {
+        justify-content: flex-end; }
+    .header-wrapp .col-5, .header-wrapp .col-2 {
+      width: 50%; }
+
+  .get {
+    line-height: 35px; }
+
+  .reristration a {
+    line-height: 35px; }
+
+  .funds h2 {
+    margin-top: 570px; } }
+@media screen and (max-width: 520px) {
+  .funds h2 {
+    margin-top: 650px; } }
+@media screen and (max-width: 430px) {
+  .funds h2 {
+    margin-top: 800px; } }
+@media screen and (max-width: 370px) {
+  .features p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1rem; }
+
+  .funds h2 {
+    margin-top: 700px; } }
+
+/*# sourceMappingURL=00-media.css.map */
